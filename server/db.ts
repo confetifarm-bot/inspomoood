@@ -2456,7 +2456,7 @@ const DEFAULT_SETTINGS: StoreSettings = {
   tiktok: '@inspomood.peru',
   phone: '+51 919 192 244',
   email: 'pedidos@inspomood.pe',
-  storeAddress: 'Miraflores, Lima - Perú (Atención y entregas con cita previa)',
+  storeAddress: 'Surco - Lima Sur',
   freeShippingThreshold: 180.00,
   limaDistricts: [
     { name: 'Miraflores', cost: 12.00, estimatedDays: 'Mismo día / 24 hrs' },

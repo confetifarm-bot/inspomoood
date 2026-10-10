@@ -29,14 +29,21 @@ import { SearchModal } from './components/SearchModal';
 import { AdminPanel } from './components/AdminPanel';
 import { StickyCartBar } from './components/StickyCartBar';
 import { Sparkles, Loader2 } from 'lucide-react';
+import {
+  DEFAULT_STORE_SETTINGS,
+  DEFAULT_CATEGORIES,
+  DEFAULT_PRODUCTS,
+  DEFAULT_PROMOTIONS,
+  DEFAULT_FAQS,
+} from './data/initialData';
 
 export default function App() {
-  const [loading, setLoading] = useState(true);
-  const [products, setProducts] = useState<Product[]>([]);
-  const [categories, setCategories] = useState<Category[]>([]);
-  const [promotions, setPromotions] = useState<Promotion[]>([]);
-  const [settings, setSettings] = useState<StoreSettings | null>(null);
-  const [faqs, setFaqs] = useState<FAQ[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [products, setProducts] = useState<Product[]>(DEFAULT_PRODUCTS);
+  const [categories, setCategories] = useState<Category[]>(DEFAULT_CATEGORIES);
+  const [promotions, setPromotions] = useState<Promotion[]>(DEFAULT_PROMOTIONS);
+  const [settings, setSettings] = useState<StoreSettings>(DEFAULT_STORE_SETTINGS);
+  const [faqs, setFaqs] = useState<FAQ[]>(DEFAULT_FAQS);
 
   // Cart state persisted in localStorage
   const [cart, setCart] = useState<CartItem[]>(() => {
@@ -67,18 +74,24 @@ export default function App() {
   const [selectedCategoryId, setSelectedCategoryId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Fetch bootstrap data
+  // Fetch bootstrap data with timeout guard
   const loadBootstrapData = async () => {
     try {
-      const res = await fetch('/api/bootstrap');
-      const data: BootstrapResponse = await res.json();
-      setProducts(data.products || []);
-      setCategories(data.categories || []);
-      setPromotions(data.promotions || []);
-      setSettings(data.settings);
-      setFaqs(data.faqs || []);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3500);
+      const res = await fetch('/api/bootstrap', { signal: controller.signal });
+      clearTimeout(timeoutId);
+
+      if (res.ok) {
+        const data: BootstrapResponse = await res.json();
+        if (data.products && data.products.length > 0) setProducts(data.products);
+        if (data.categories && data.categories.length > 0) setCategories(data.categories);
+        if (data.promotions) setPromotions(data.promotions);
+        if (data.settings) setSettings(data.settings);
+        if (data.faqs) setFaqs(data.faqs);
+      }
     } catch (err) {
-      console.error('Error fetching bootstrap data:', err);
+      console.warn('InspoMood catálogo inicial precargado activo:', err);
     } finally {
       setLoading(false);
     }
@@ -174,18 +187,8 @@ export default function App() {
 
   const totalCartItemsCount = cart.reduce((acc, it) => acc + it.quantity, 0);
 
-  if (loading || !settings) {
-    return (
-      <div className="min-h-screen bg-[#FAFAF7] flex flex-col items-center justify-center space-y-4">
-        <div className="w-14 h-14 rounded-3xl bg-rose-50 flex items-center justify-center text-[#D94E34] animate-pulse border border-rose-100 shadow-sm">
-          <Sparkles className="w-7 h-7 text-[#D94E34]" />
-        </div>
-        <p className="text-xs font-bold text-stone-600 tracking-wider uppercase">
-          Cargando InspoMood...
-        </p>
-      </div>
-    );
-  }
+  // Instant zero-wait hydration - never freeze the user on loading screen
+  const currentSettings = settings || DEFAULT_STORE_SETTINGS;
 
   return (
     <div className="min-h-screen bg-[#FAFAF7] flex flex-col font-sans selection:bg-rose-500/20 selection:text-stone-900">

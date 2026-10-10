@@ -260,7 +260,7 @@ export const Hero: React.FC<HeroProps> = ({ settings, onExplore, onOpenGiftFinde
                   <div className="flex text-amber-400">
                     <Star className="w-3.5 h-3.5 fill-amber-400" />
                   </div>
-                  <span>4.9 / 5 · +1,200 entregas</span>
+                  <span>4.9 / 5 · Surco - Lima Sur</span>
                 </div>
 
                 {/* Floating Tag Badge 2: Brand Stamp */}
