@@ -1,0 +1,272 @@
+=======================================================
+      INSPOMOOD - LISTA DE PRODUCTOS Y PRECIOS        
+=======================================================
+Estado: Precios actualizados en la tienda.
+
+
+-------------------------------------------------------
+CATEGORÍA: RAMOS Y FLORES
+-------------------------------------------------------
+01. [ID: prod-rosas-eternas]
+    Producto: Ramo de Rosas Eternas de Satén (Colección Romance)
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+02. [ID: prod-ramo-carritos]
+    Producto: Ramo Sorpresa de Carritos Hot Wheels & Rosas
+    Precio Actual: S/ 59.00 (Antes: S/ 75.00)
+    Nuevo Precio:  S/ 59
+
+03. [ID: prod-limpiapipas]
+    Producto: Ramo de Flores de Limpiapipas Artesanales (Jardín Eterno)
+    Precio Actual: S/ 59.00 (Antes: S/ 75.00)
+    Nuevo Precio:  S/ 59
+
+04. [ID: prod-capibara-girasoles]
+    Producto: Ramo Capibara y Girasoles "Abrazo Soleado"
+    Precio Actual: S/ 49.00 (Antes: S/ 63.00)
+    Nuevo Precio:  S/ 49
+
+05. [ID: prod-ramo-ositos]
+    Producto: Ramo de Ositos "Juntos Siempre"
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+06. [ID: prod-estrellitas-origami]
+    Producto: Ramo de Estrellitas Origami Pastel Galaxy
+    Precio Actual: S/ 39.00 (Antes: S/ 51.00)
+    Nuevo Precio:  S/ 39
+
+
+-------------------------------------------------------
+CATEGORÍA: DISFRACES INDIVIDUALES Y PARA PAREJAS
+-------------------------------------------------------
+07. [ID: prod-duo-joker-harley]
+    Producto: Disfraz Dúo Pareja: Joker & Harley Quinn Comics
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+08. [ID: prod-duo-aladdin-jasmine]
+    Producto: Disfraz Dúo Pareja: Aladdin & Jasmine Noches de Arabia
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+09. [ID: prod-duo-chucky-tiffany]
+    Producto: Disfraz Dúo Pareja: Chucky & Tiffany Novia Diabólica
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+10. [ID: prod-duo-angel-demonio]
+    Producto: Disfraz Dúo Pareja: Ángel Celestial & Demonio Nocturno
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+11. [ID: prod-duo-beetlejuice-lydia]
+    Producto: Disfraz Dúo Pareja: Beetlejuice & Lydia Deetz
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+12. [ID: prod-duo-morticia-gomez]
+    Producto: Disfraz Dúo Pareja: Morticia & Gomez Addams
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+13. [ID: prod-duo-pirata-corsaria]
+    Producto: Disfraz Dúo Pareja: Pirata Corsario & Capitana Rebelde
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+14. [ID: prod-duo-woody-bopeep]
+    Producto: Disfraz Dúo Pareja: Woody & Bo Peep Toy Story
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+15. [ID: prod-duo-vampiro-vampiresa]
+    Producto: Disfraz Dúo Pareja: Vampiro Aristócrata & Vampiresa Gótica
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+16. [ID: prod-duo-ghostface]
+    Producto: Disfraz Dúo Pareja: Dúo Ghostface Woodsboro
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+17. [ID: prod-duo-ninjas]
+    Producto: Disfraz Dúo Pareja: Ninjas Urbanos Cyber Kage
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+18. [ID: prod-duo-rumi-jinu]
+    Producto: Disfraz Dúo Pareja: Rumi & Jinu K-Pop Demon Hunters
+    Precio Actual: S/ 159.00 (Antes: S/ 189.00)
+    Nuevo Precio:  S/ 159
+
+19. [ID: prod-disfraz-rapunzel]
+    Producto: Disfraz Princesa Rapunzel Enredados Deluxe
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+20. [ID: prod-disfraz-ariel]
+    Producto: Disfraz Princesa Ariel La Sirenita Glam
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+21. [ID: prod-disfraz-cruella]
+    Producto: Disfraz Cruella de Vil Haute Couture
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+22. [ID: prod-disfraz-malefica]
+    Producto: Disfraz Maléfica Señora del Mal con Cuernos
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+23. [ID: prod-disfraz-tinkerbell]
+    Producto: Disfraz Campanita / Tinkerbell Hada del Bosque
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+24. [ID: prod-disfraz-draculaura]
+    Producto: Disfraz Draculaura Monster High Sweet Goth
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+25. [ID: prod-disfraz-kim-possible]
+    Producto: Disfraz Kim Possible & Shego (Serie Animada)
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+26. [ID: prod-disfraz-spider-gwen]
+    Producto: Disfraz Spider-Gwen Heroína Arácnida
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+27. [ID: prod-disfraz-gatita]
+    Producto: Disfraz Gatita Coquette Glam Velvet
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+28. [ID: prod-disfraz-conejita]
+    Producto: Disfraz Conejita Sweet Bunny Velvet
+    Precio Actual: S/ 69.00 (Antes: S/ 86.00)
+    Nuevo Precio:  S/ 69
+
+
+-------------------------------------------------------
+CATEGORÍA: DETALLES PERSONALIZADOS
+-------------------------------------------------------
+29. [ID: prod-kit-citas]
+    Producto: Kit de Citas y Recuerdos InspoMood (100 Citas + Álbum)
+    Precio Actual: S/ 59.00 (Antes: S/ 75.00)
+    Nuevo Precio:  S/ 59
+
+30. [ID: prod-caja-para-el]
+    Producto: Caja de Regalo Elegante "Para Él" Edición Noir
+    Precio Actual: S/ 79.00 (Antes: S/ 98.00)
+    Nuevo Precio:  S/ 79
+
+
+-------------------------------------------------------
+CATEGORÍA: ROPA Y ACCESORIOS PARA COMBINAR
+-------------------------------------------------------
+31. [ID: prod-catalogo-15-prendas]
+    Producto: Arma tu Disfraz: Catálogo 15 Prendas Mix & Match
+    Precio Actual: S/ 79.00 (Antes: S/ 98.00)
+    Nuevo Precio:  S/ 79
+
+
+-------------------------------------------------------
+CATEGORÍA: COMBOS PARA PAREJAS
+-------------------------------------------------------
+32. [ID: prod-combo-amor]
+    Producto: Combo InspoMood Dúo Amor: Ramo Romance + Kit de Citas + Caja Sorpresa
+    Precio Actual: S/ 89.00 (Antes: S/ 110.00)
+    Nuevo Precio:  S/ 89
+
+
+-------------------------------------------------------
+CATEGORÍA: PERFUMES
+-------------------------------------------------------
+33. [ID: prod-perfume-noche-juntos]
+    Producto: Perfume Signature "InspoMood Noche Juntos" EDP 100ml
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+34. [ID: prod-box-bleu-chanel]
+    Producto: Box Deluxe para Él: Bleu de Chanel & Rosas Eternas
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+35. [ID: prod-box-dior-sauvage]
+    Producto: Box Exclusivo para Él: Dior Sauvage & Accesorios Noir
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+36. [ID: prod-box-jpg-le-male]
+    Producto: Caja de Regalo de Lujo: JPG Le Male Le Parfum Edition
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+37. [ID: prod-box-acqua-di-gio]
+    Producto: Set Elegante para Él: Giorgio Armani Acqua di Giò
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+38. [ID: prod-box-good-girl]
+    Producto: Box Alta Gama para Ella: Carolina Herrera Good Girl & Rosas
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+39. [ID: prod-box-ysl-libre]
+    Producto: Box Glamour para Ella: YSL Libre Eau de Parfum
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+40. [ID: prod-box-la-vie-est-belle]
+    Producto: Box Romántico: Lancôme La Vie Est Belle & Arreglo Floral
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+41. [ID: prod-box-black-opium]
+    Producto: Caja de Regalo Noir: YSL Black Opium & Flores Satinadas
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+42. [ID: prod-box-versace-bright-crystal]
+    Producto: Set Coquette: Versace Bright Crystal & Detalles Rosa Pastel
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+43. [ID: prod-box-valentino-born-in-roma]
+    Producto: Caja Couture: Valentino Donna Born in Roma
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+44. [ID: prod-box-prada-paradoxe]
+    Producto: Box Floral Vanguardia: Prada Paradoxe Eau de Parfum
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+45. [ID: prod-box-mugler-alien]
+    Producto: Box Místico: Mugler Alien Eau de Parfum & Detalles
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+
+-------------------------------------------------------
+CATEGORÍA: COMBOS PARA PAREJAS
+-------------------------------------------------------
+46. [ID: prod-combo-floral-perfume-deluxe]
+    Producto: Combo InspoMood Dúo Amor: Caja Floral Deluxe + Fragancia Signature
+    Precio Actual: S/ 109.00 (Antes: S/ 134.00)
+    Nuevo Precio:  S/ 109
+
+
+-------------------------------------------------------
+CATEGORÍA: DETALLES PERSONALIZADOS
+-------------------------------------------------------
+47. [ID: prod-caja-floral-inspomood]
+    Producto: Caja Sorpresa InspoMood: Arreglo Floral & Joyas con Logo Oficial
+    Precio Actual: S/ 139.00 (Antes: S/ 169.00)
+    Nuevo Precio:  S/ 139
+

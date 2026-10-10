@@ -1,0 +1,6 @@
+{
+  "name": "InspoMood - Detalles para Compartir",
+  "description": "Tienda online peruana de regalos, ramos, disfraces para parejas, perfumes y detalles para sorprender a tu persona favorita.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
