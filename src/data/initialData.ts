@@ -9,7 +9,7 @@ export const DEFAULT_STORE_SETTINGS: StoreSettings = {
   "heroButtonFinder": "Encontrar un detalle",
   "whatsappNumber": "+51 919 192 244",
   "whatsappGreeting": "¡Hola InspoMood! Vengo desde su tienda online y deseo coordinar un pedido al 919 192 244:",
-  "instagram": "@inspomood.pe",
+  "facebookUrl": "https://www.facebook.com/profile.php?id=61595327577046&locale=es_LA",
   "tiktok": "@inspomood.peru",
   "phone": "+51 919 192 244",
   "email": "pedidos@inspomood.pe",

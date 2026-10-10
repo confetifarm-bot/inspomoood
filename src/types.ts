@@ -197,7 +197,8 @@ export interface StoreSettings {
   heroButtonFinder: string;
   whatsappNumber: string;
   whatsappGreeting: string;
-  instagram: string;
+  instagram?: string;
+  facebookUrl?: string;
   tiktok: string;
   phone: string;
   email: string;

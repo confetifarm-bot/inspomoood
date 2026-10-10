@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Heart, MessageCircle, Instagram, ShieldCheck, Mail, MapPin, Phone, FileText, X } from 'lucide-react';
+import { Heart, MessageCircle, Facebook, ShieldCheck, Mail, MapPin, Phone, FileText, X } from 'lucide-react';
 import { StoreSettings } from '../types';
 import { getCleanWhatsAppPhone, createWhatsAppUrl, DISPLAY_WHATSAPP_PHONE } from '../utils/whatsapp';
 
@@ -67,13 +67,14 @@ export const Footer: React.FC<FooterProps> = ({
                 <MessageCircle className="w-4 h-4" />
               </a>
               <a
-                href={`https://instagram.com/${settings.instagram?.replace('@', '')}`}
+                href={settings.facebookUrl || "https://www.facebook.com/profile.php?id=61595327577046&locale=es_LA"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-2xl bg-white/10 hover:bg-white/15 text-pink-400 flex items-center justify-center transition-all border border-white/10 shadow-2xs"
-                title="Instagram InspoMood"
+                className="w-10 h-10 rounded-2xl bg-white/10 hover:bg-blue-600/20 text-[#1877F2] flex items-center justify-center transition-all border border-white/10 hover:border-[#1877F2]/40 shadow-2xs cursor-pointer"
+                title="Página de Facebook InspoMood"
+                aria-label="Facebook InspoMood"
               >
-                <Instagram className="w-4 h-4" />
+                <Facebook className="w-4 h-4 fill-current" />
               </a>
             </div>
           </div>
